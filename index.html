@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdventureWithUs.in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.mIn.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel<span>B</span>uddy</a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">Book Now</a>
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-user" id="login-btn" onclick="window.open('login.html')" target="_blank">login</i>
+    </div>
+
+
+</header>
+
+<!-- header section ends -->
+
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3> Adventure is worthwhile</h3>
+        <p>Dicover new places with us, Adventure awaits</p>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now" onclick="window.open('bookdone.html')">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/img1.jpg" alt="This is a picture">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Manali | 6D/5N</h3>
+                <p>Manali is known for its unlimited adventure opportunities, the famous Hadimba Temple, the scenic Rohtang Pass, the snow-laden Solang Valley and its delightful culinary scene.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">&#8377;10,000.00 <span>&#8377;.15,000.00</span> </div>
+                <a href="booking.html" class="btn" target="_blank">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img2.jpg" alt="This is a picture">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Shimla | 3D/2N</h3>
+                <p>Shimla is blissfully surrounded by the green hills with snowcapped peaks. Its spectacular natural bounty accompanied by structures made during the colonial era.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> &#8377;3,000.00 <span>&#8377;5,000.00</span> </div>
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img3.jpg" alt="This is a picture">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Hamta Pass Trek | 10D/9N </h3>
+                <p>Hampta Pass gets its name from the Hamta Village located at a staggering altitude of 14,000 feet in the Pir Panjal region. It's famous for its trekking route.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> &#8377;15,000.00 <span>&#8377;20,000.00</span> </div>
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img4.jpg" alt="This is a picture">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Dharmshala | 2D/1N</h3>
+                <p>ocated in Western Himachal region, Dharamshala is a prominent name in Buddhist tour to the state, as the home of Dalai Lama and all the Tibetans in exile.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> &#8377;2,000.00 <span>&#8377;3,500.00</span> </div>
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img5.jpg" alt="This is a picture">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Friendship Peak | 9D/8N</h3>
+                <p>Friendship Peak is a majestic mountain, situated at Pir Panjal range, in Kullu District of Himachal Pradesh. This mountain, covered with snow, is perched at an altitude of 5,289 m above the sea level.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> &#8377;12,000.00 <span>&#8377;15,000.00</span> </div>
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img6.jpeg" alt="This is a picture">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Pin Parvati Trek | 7D/6N </h3>
+                <p>The Pin Parvati Pass is a thrilling challenge for any seasoned trekker. It’s a long expedition that gives trekkers a massive dose of adventure, beauty and a sense of achievement. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> &#8377;10,000.00 <span>&#8377;12,000.00</span> </div>
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>The air-conditioned rooms feature large bay windows offering garden or mountain views, a satellite TV, DVD player and minibar. A separate walk-in closet has an electronic safe. 24-hour butler service is available.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Consumer Reports tests a wide variety of food and drinks you’ll find in supermarkets and at restaurants, rating them for nutrition and taste. Our food safety, labeling, and nutrition experts provide practical advice on eating a healthy diet, bust nutrition myths, help you understand the claims and nutrition information on food labels, and weigh in on important food safety issues.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>Through planning and research you can prevent or be prepared for many of the common issues you might face in adjusting to a different environment overseas, such as: how to guard against petty theft, mitigate the risks of road safety, be cautious about water activities, maintain a low profile, and stay in touch with colleagues/loved ones.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Transfers to airports and sea ports, sightseeing tours, organized journeys and discovery voyages. Excursions for families, groups and cruise passengers, with luxury cars and professional drivers. Guided, private and personalized services. City tours, leisure trips, business trips and honeymoons</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+    
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/p1.jpg" alt="">
+            <div class="content">
+                <h3> Hot Air Ballon inManali</h3>
+                <p>Hot air ballooning in Manali is a fun and exciting activity to take part in Manali.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/p2.jpg" alt="">
+            <div class="content">
+                <h3>Dalhousie</h3>
+                <p>It is known for its pleasant climate and scenic beauty.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/p6.jpg" alt="">
+            <div class="content">
+                <h3>Khajjiar</h3>
+                <p> Khajjiar is famous for the popular Khajji Naga shrine dedicated to the serpent god from which the name is believed to have been derived.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/p3.jpg" alt="">
+            <div class="content">
+                <h3>Suraj Tal</h3>
+                <p>It is also known as lake of Sun God is situated in the upper Himalayan zone in the Lahul & Spiti valley of Himachal Pradesh</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/p4.jpg" alt="">
+            <div class="content">
+                <h3>Shimla</h3>
+                <p>. This capital city of Himachal Pradesh is famous for The Mall, ridge, and toy train.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/p5.jpg" alt="">
+            <div class="content">
+                <h3>Dharamshala</h3>
+                <p>Dharamshala is a prominent name in Buddhist tour to the state, as the home of Dalai Lama and all the Tibetans in exile.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/p7.jpg" alt="">
+            <div class="content">
+                <h3>Pangong Lake</h3>
+                <p>Pangong Lake, situated at a height of almost 4,350m, is the world's highest saltwater lake.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/p8.jpg" alt="">
+            <div class="content">
+                <h3>Prashar Lake</h3>
+                <p>The “Prashar Lake” which has perimeter of about 300 mtr. is decorated by a floating island in it.</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic1.png" alt="">
+                    <h3>Shreya Rana </h3>
+                    <p>We have booked the tour package for  Dharamshala… Travel Agent guided us so nicely for the trip .. hotel suite and the transport were so nice … it was a great experience</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic2.png" alt="">
+                    <h3>Suraj Kumar</h3>
+                    <p>Very nicely well planned trip to shimla...i am really happy with the hotels especially shimla and schedule for trip.all thanks to AdventureWithUs for arranging such a beautiful trip</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic3.png" alt="">
+                    <h3>Ridhi Rana</h3>
+                    <p>Great trip arrangement, with simple and trustworthy driver and good hotels. Recommend AdventureWithUs for all of your upcoming journeys, they are the Best !</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic4.png" alt="">
+                    <h3>Sahil Rana</h3>
+                    <p>We had a wonderful time in Kullu-Manali. Thanks to Travel Triangle team for being so supportive and planning out a perfect itinerary for us. Really liked their service and approach.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="name" required>
+                <input type="email" id = "email" placeholder="email" required>
+            </div>
+            <div class="inputBox">
+                <input type="number" id = "contact" placeholder="contact number" required>     
+                <input type="text" id ="state" placeholder="state"required>
+            </div>
+            <textarea placeholder="message" name="" id="message" cols="30" rows="10"required></textarea>
+            <button type="submit" class="btn" onclick="window.open('submit.html')">send message</button>
+        </form>
+        
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>“Travel is the main thing you purchase that makes you more extravagant”.We, at AdventureWithUs.in, swear by this and put stock in satisfying travel dreams that make you perpetually rich constantly.</p>
+        </div>
+        <div class="box">
+            <h3>Branch Locations</h3>
+            <a href="#">Palampur</a>
+            <a href="#">Kullu Manali</a>
+            <a href="#">Shimla</a>
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#galery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+</section>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

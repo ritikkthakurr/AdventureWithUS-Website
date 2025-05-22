@@ -1,0 +1,26 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear; 
+  }
+
+form{
+    padding:2%;
+    border: 1px solid red;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+.container .inputBox{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.container .inputBox input{
+    margin-left: 2%;
+    margin-right: 2%;
+}
